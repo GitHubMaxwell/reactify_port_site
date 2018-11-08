@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{91:function(e,n,o){"use strict";o.r(n);var r=o(35),t=o.n(r);n.default=class extends r.Component{render(){return t.a.createElement("h1",null,"Hello World")}}}}]);
+//# sourceMappingURL=app.js.map

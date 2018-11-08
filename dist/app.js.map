@@ -1,0 +1,1 @@
+{"version":3,"file":"app.js","sources":["webpack:///./src/components/App.js"],"sourcesContent":["import React, { Component } from \"react\";\n\nclass App extends Component {\n  render() {\n    return <h1>Hello World</h1>;\n  }\n}\n\nexport default App;\n"],"mappings":"AAAA","sourceRoot":""}
