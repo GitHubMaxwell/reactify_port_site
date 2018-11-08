@@ -1,6 +1,3 @@
-// can skip the "entry" field because by default it goes to src -> index.js
-// can skip "output" field because by default it goes to dist -> main.js
-// import HtmlWebpackPlugin from 'html-webpack-plugin';
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
