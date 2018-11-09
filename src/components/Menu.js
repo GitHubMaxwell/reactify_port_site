@@ -6,49 +6,77 @@ import { Link } from "react-router-dom";
 export default class Menu extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      show: false,
+      current: "home"
+    };
   }
   // pass which page is current
   // add current class to
-  // add hamburger click event
-
-  onClick = () => {
-    console.log(`Hamburger Clck + ${this.props.current}`);
+  menuItemClick = () => {
+    // pass event.target.value???
+    // console.log("menu item click");
+    this.setState({
+      current: "",
+      show: false
+    });
   };
+
+  hamburgerClick = () => {
+    // console.log(`Hamburger Click + ${this.props.current}`);
+    this.setState(prevState => ({
+      show: !prevState.show
+    }));
+  };
+
+  // how to highlight which menu item has the 'current' class based on which page is show
+  // onClick setState current:'about' / this.state.current===input.value ? add class current : ``;
 
   render() {
     return (
       <header>
-        <div onClick={this.onClick} className="menu-btn">
+        <div
+          onClick={this.hamburgerClick}
+          className={`menu-btn ${this.state.show ? `close` : ``}`}
+        >
           <div className="btn-line" />
           <div className="btn-line" />
           <div className="btn-line" />
         </div>
 
-        <nav className="menu">
-          <div className="menu-branding">
+        <nav className={`menu ${this.state.show ? `show` : ``}`}>
+          <div className={`menu-branding ${this.state.show ? `show` : ``}`}>
             <div className="portrait" />
           </div>
-          <ul className="menu-nav">
-            <li className="menu-nav-items">
-              <Link to={"/"} className="menu-nav-link">
-                Home
-              </Link>
-            </li>
-            <li className="menu-nav-items current">
-              <Link to={"/about"} className="menu-nav-link">
-                About
-              </Link>
-            </li>
-            <li className="menu-nav-items">
-              <Link to={"/work"} className="menu-nav-link">
-                Work
-              </Link>
-            </li>
-            <li className="menu-nav-items">
-              <Link to={"/contact"} className="menu-nav-link">
-                Contact
-              </Link>
-            </li>
+          <ul className={`menu-nav ${this.state.show ? `show` : ``}`}>
+            <Link
+              to={"/"}
+              className={`menu-nav-items ${this.state.show ? `show` : ``}`}
+              onClick={this.menuItemClick}
+            >
+              Home
+            </Link>
+            <Link
+              to={"/about"}
+              className={`menu-nav-items ${this.state.show ? `show` : ``}`}
+              onClick={this.menuItemClick}
+            >
+              About
+            </Link>
+            <Link
+              to={"/work"}
+              className={`menu-nav-items ${this.state.show ? `show` : ``}`}
+              onClick={this.menuItemClick}
+            >
+              Work
+            </Link>
+            <Link
+              to={"/contact"}
+              className={`menu-nav-items ${this.state.show ? `show` : ``}`}
+              onClick={this.menuItemClick}
+            >
+              Contact
+            </Link>
           </ul>
         </nav>
       </header>

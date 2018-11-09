@@ -26,30 +26,6 @@
       margin-bottom: 1rem;
     }
   }
-  ul.menu-nav,
-  div.menu-branding {
-    float: none;
-    width: 100%;
-    min-height: 0;
-    &.show {
-      transform: translate3d(0, 0, 0);
-    }
-  }
-  .menu-nav {
-    height: 75vh;
-    // start from left (-) off screen
-    transform: translate3d(-100%, 0, 0);
-  }
-  .menu-branding {
-    height: 25vh;
-    // start from right off screen
-    transform: translate3d(100%, 0, 0);
-    .portrait {
-      background: $profile-picture-sm;
-      width: 150px;
-      height: 150px;
-    }
-  }
   .about-info {
     grid-template-areas:
       "bioimage"
