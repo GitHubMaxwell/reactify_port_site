@@ -18,14 +18,14 @@ $profile-picture-sm: url("../assets/portrait_small.jpg");
     @return #fff;
   }
 }
-
 @mixin easeOut {
   transition: all 170ms ease-out;
 }
 @mixin background {
   @if $show-home-image {
     & {
-      background: $home-image-url;
+      // background: $home-image-url;
+      background: $primary-color;
       background-attachment: fixed;
       background-size: cover;
       // &:after {

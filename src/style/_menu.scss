@@ -44,6 +44,7 @@
   visibility: hidden;
   &.show {
     visibility: visible;
+    // dark overlay is made visible
   }
   &-nav {
     display: flex;
@@ -53,7 +54,7 @@
     height: 100vh;
     overflow: hidden;
     margin: 0;
-    padding-top: 100px;
+    padding-top: 90px;
     background: white;
     list-style: none;
     transform: translate3d(-100%, 0, 0);
@@ -66,7 +67,7 @@
     display: inline-block;
     position: relative;
     font-size: 15px;
-    padding: 1rem 35px;
+    padding: 0.8rem 35px;
     font-weight: 500;
     color: set-text-color(white);
     text-decoration: none;
