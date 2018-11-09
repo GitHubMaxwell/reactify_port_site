@@ -4,10 +4,11 @@ $primary-color: #444;
 
 $secondary-color: yellow;
 $show-home-image: true;
-$home-image-url: url(../img/background.jpg);
+$home-image-url: url("../assets/background.jpg");
+$home-image-test: green;
 $background-opacity: 0.9;
-$profile-picture: url("../img/portrait.jpg");
-$profile-picture-sm: url("../img/portrait_small.jpg");
+$profile-picture: url("../assets/portrait.jpg");
+$profile-picture-sm: url("../assets/portrait_small.jpg");
 
 // Set text color dynmaically
 
@@ -24,8 +25,9 @@ $profile-picture-sm: url("../img/portrait_small.jpg");
 }
 @mixin background {
   @if $show-home-image {
-    &#bg-img {
-      background: $home-image-url;
+    body {
+      // background: $home-image-url;
+      background: $home-image-test;
       background-attachment: fixed;
       background-size: cover;
       &:after {
