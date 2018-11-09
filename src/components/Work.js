@@ -1,65 +1,71 @@
 import React from "react";
+import project1 from "../assets/projects/project1.jpg";
+import project2 from "../assets/projects/project2.jpg";
+import project3 from "../assets/projects/project3.jpg";
+import project4 from "../assets/projects/project4.jpg";
+import project5 from "../assets/projects/project5.jpg";
+
 export default function Work() {
   return (
     <main id="about">
-      <h1 class="lg-heading">
-        My <span class="text-secondary">Work</span>
+      <h1 className="lg-heading">
+        My <span className="text-secondary">Work</span>
       </h1>
-      <h2 class="sm-heading">Check Out My Projects</h2>
-      <div class="projects">
-        <div class="project-items">
+      <h2 className="sm-heading">Check Out My Projects</h2>
+      <div className="projects">
+        <div className="project-items">
           <a href="#!">
-            <img src="img/projects/project1.jpg" alt="Project" />
+            <img src={project1} alt="Project" />
           </a>
-          <a href="#!" class="btn-light">
-            <i class="fas fa-eye" /> Project
+          <a href="#!" className="btn-light">
+            <i className="fas fa-eye" /> Project
           </a>
-          <a href="#!" class="btn-dark">
-            <i class="fab fa-github" /> GitHub
+          <a href="#!" className="btn-dark">
+            <i className="fab fa-github" /> GitHub
           </a>
         </div>
-        <div class="project-items">
+        <div className="project-items">
           <a href="#!">
-            <img src="img/projects/project2.jpg" alt="Project" />
+            <img src={project2} alt="Project" />
           </a>
-          <a href="#!" class="btn-light">
-            <i class="fas fa-eye" /> Project
+          <a href="#!" className="btn-light">
+            <i className="fas fa-eye" /> Project
           </a>
-          <a href="#!" class="btn-dark">
-            <i class="fab fa-github" /> GitHub
+          <a href="#!" className="btn-dark">
+            <i className="fab fa-github" /> GitHub
           </a>
         </div>
-        <div class="project-items">
+        <div className="project-items">
           <a href="#!">
-            <img src="img/projects/project3.jpg" alt="Project" />
+            <img src={project3} alt="Project" />
           </a>
-          <a href="#!" class="btn-light">
-            <i class="fas fa-eye" /> Project
+          <a href="#!" className="btn-light">
+            <i className="fas fa-eye" /> Project
           </a>
-          <a href="#!" class="btn-dark">
-            <i class="fab fa-github" /> GitHub
+          <a href="#!" className="btn-dark">
+            <i className="fab fa-github" /> GitHub
           </a>
         </div>
-        <div class="project-items">
+        <div className="project-items">
           <a href="#!">
-            <img src="img/projects/project4.jpg" alt="Project" />
+            <img src={project4} alt="Project" />
           </a>
-          <a href="#!" class="btn-light">
-            <i class="fas fa-eye" /> Project
+          <a href="#!" className="btn-light">
+            <i className="fas fa-eye" /> Project
           </a>
-          <a href="#!" class="btn-dark">
-            <i class="fab fa-github" /> GitHub
+          <a href="#!" className="btn-dark">
+            <i className="fab fa-github" /> GitHub
           </a>
         </div>
-        <div class="project-items">
+        <div className="project-items">
           <a href="#!">
-            <img src="img/projects/project5.jpg" alt="Project" />
+            <img src={project5} alt="Project" />
           </a>
-          <a href="#!" class="btn-light">
-            <i class="fas fa-eye" /> Project
+          <a href="#!" className="btn-light">
+            <i className="fas fa-eye" /> Project
           </a>
-          <a href="#!" class="btn-dark">
-            <i class="fab fa-github" /> GitHub
+          <a href="#!" className="btn-dark">
+            <i className="fab fa-github" /> GitHub
           </a>
         </div>
       </div>

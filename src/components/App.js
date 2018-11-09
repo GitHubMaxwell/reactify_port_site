@@ -6,7 +6,8 @@ import Work from "./Work.js";
 import Contact from "./Contact.js";
 import Menu from "./Menu.js";
 import Footer from "./Footer.js";
-// import "../style/main.scss";
+
+// maybe the code splitting in index.js messing up routes?
 
 export default class App extends Component {
   constructor(props) {
@@ -20,12 +21,11 @@ export default class App extends Component {
       <BrowserRouter>
         <Fragment>
           <Menu current={this.state.current} />
-          <Home />
-          <Footer />
           <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/work" component={Work} />
-          <Route exact path="/contact" component={Contact} />
+          <Route path="/about" component={About} />
+          <Route path="/work" component={Work} />
+          <Route path="/contact" component={Contact} />
+          <Footer />
         </Fragment>
       </BrowserRouter>
     );

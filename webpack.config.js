@@ -2,6 +2,9 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   devtool: "cheap-module-source-map",
+  devServer: {
+    historyApiFallback: true
+  },
   module: {
     rules: [
       {
@@ -24,6 +27,7 @@ module.exports = {
       },
       {
         test: /\.scss$/,
+        exclude: /node_modules/,
         use: [
           {
             loader: "style-loader"
@@ -38,6 +42,7 @@ module.exports = {
       },
       {
         test: /\.(pdf|jpg|png|gif|svg|ico)$/,
+        exclude: /node_modules/,
         use: [
           {
             loader: "file-loader"
