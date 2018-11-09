@@ -1,6 +1,7 @@
 import "@babel/polyfill";
 import React from "react";
 import { render } from "react-dom";
+import "./style/main.scss";
 // the lazy load import below is handling the importing of the App component
 // import App from "./components/App";
 // import * as serviceWorker from "./serviceWorker";
