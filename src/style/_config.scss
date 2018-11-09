@@ -18,7 +18,6 @@ $profile-picture-sm: url("../assets/portrait_small.jpg");
     @return #fff;
   }
 }
-
 @mixin easeOut {
   transition: all 170ms ease-out;
 }
