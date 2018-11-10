@@ -216,9 +216,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   }
 
   render() {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["BrowserRouter"], {
-      basename: "/reactify_port_site"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Menu_js__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["HashRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Menu_js__WEBPACK_IMPORTED_MODULE_6__["default"], {
       current: this.state.current
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
       exact: true,
@@ -332,14 +330,6 @@ function Home() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "/"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fab fa-twitter fa-2x"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "/"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fab fa-facebook fa-2x"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "/"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fab fa-linkedin fa-2x"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "/"
@@ -414,6 +404,8 @@ class Menu extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
   render() {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: `menu-btn-container ${this.state.show ? `close` : ``}`
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       onClick: this.hamburgerClick,
       className: `menu-btn ${this.state.show ? `close` : ``}`
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -422,7 +414,7 @@ class Menu extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "btn-line"
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "btn-line"
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+    }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
       className: `menu ${this.state.show ? `show` : ``}`
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: `menu-branding ${this.state.show ? `show` : ``}`
