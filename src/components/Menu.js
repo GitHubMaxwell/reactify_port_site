@@ -35,13 +35,15 @@ export default class Menu extends Component {
   render() {
     return (
       <header>
-        <div
-          onClick={this.hamburgerClick}
-          className={`menu-btn ${this.state.show ? `close` : ``}`}
-        >
-          <div className="btn-line" />
-          <div className="btn-line" />
-          <div className="btn-line" />
+        <div className={`menu-btn-container ${this.state.show ? `close` : ``}`}>
+          <div
+            onClick={this.hamburgerClick}
+            className={`menu-btn ${this.state.show ? `close` : ``}`}
+          >
+            <div className="btn-line" />
+            <div className="btn-line" />
+            <div className="btn-line" />
+          </div>
         </div>
 
         <nav className={`menu ${this.state.show ? `show` : ``}`}>
