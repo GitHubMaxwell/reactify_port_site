@@ -1,5 +1,32 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["app"],{
 
+/***/ "./src/assets/assets_export.js":
+/*!*************************************!*\
+  !*** ./src/assets/assets_export.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// export background from "./background.jpg";
+// export portrait from "./portrait.jpg";
+// export portrait_small from "./portrait_small.jpg";
+// export project1 from "./projects/project1.jpg";
+// export project2 from "./projects/project2.jpg";
+// export project3 from "./projects/project3.jpg";
+// export project4 from "./projects/project4.jpg";
+// export project5 from "./projects/project5.jpg";
+/* harmony default export */ __webpack_exports__["default"] = ({
+  project1: "./projects/project1.jpg",
+  project2: "./projects/project2.jpg",
+  project3: "./projects/project3.jpg",
+  project4: "./projects/project4.jpg",
+  project5: "./projects/project5.jpg"
+});
+
+/***/ }),
+
 /***/ "./src/assets/portrait.jpg":
 /*!*********************************!*\
   !*** ./src/assets/portrait.jpg ***!
@@ -7,62 +34,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "ef93b85f91bed41bc96b6a7b7369126c.jpg";
-
-/***/ }),
-
-/***/ "./src/assets/projects/project1.jpg":
-/*!******************************************!*\
-  !*** ./src/assets/projects/project1.jpg ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "2efd960d6f072c1970115149dc9607d6.jpg";
-
-/***/ }),
-
-/***/ "./src/assets/projects/project2.jpg":
-/*!******************************************!*\
-  !*** ./src/assets/projects/project2.jpg ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "473d9f55d2f5045e41e3271c338cdb11.jpg";
-
-/***/ }),
-
-/***/ "./src/assets/projects/project3.jpg":
-/*!******************************************!*\
-  !*** ./src/assets/projects/project3.jpg ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "139308d797d4a548920ce783be94237f.jpg";
-
-/***/ }),
-
-/***/ "./src/assets/projects/project4.jpg":
-/*!******************************************!*\
-  !*** ./src/assets/projects/project4.jpg ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "5a100b46aa5dcadfabc907a76cf78c87.jpg";
-
-/***/ }),
-
-/***/ "./src/assets/projects/project5.jpg":
-/*!******************************************!*\
-  !*** ./src/assets/projects/project5.jpg ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "babc9580b3b97699fb8a21b526912d87.jpg";
+module.exports = __webpack_require__.p + "src/assets/portrait-ef93b85f.jpg";
 
 /***/ }),
 
@@ -396,20 +368,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Work; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _assets_projects_project1_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/projects/project1.jpg */ "./src/assets/projects/project1.jpg");
-/* harmony import */ var _assets_projects_project1_jpg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_projects_project1_jpg__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _assets_projects_project2_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/projects/project2.jpg */ "./src/assets/projects/project2.jpg");
-/* harmony import */ var _assets_projects_project2_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_projects_project2_jpg__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _assets_projects_project3_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/projects/project3.jpg */ "./src/assets/projects/project3.jpg");
-/* harmony import */ var _assets_projects_project3_jpg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_projects_project3_jpg__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _assets_projects_project4_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/projects/project4.jpg */ "./src/assets/projects/project4.jpg");
-/* harmony import */ var _assets_projects_project4_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_projects_project4_jpg__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _assets_projects_project5_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../assets/projects/project5.jpg */ "./src/assets/projects/project5.jpg");
-/* harmony import */ var _assets_projects_project5_jpg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_assets_projects_project5_jpg__WEBPACK_IMPORTED_MODULE_5__);
-
-
-
-
+/* harmony import */ var _assets_assets_export_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/assets_export.js */ "./src/assets/assets_export.js");
 
 
 function Work() {
@@ -428,7 +387,7 @@ function Work() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#!"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_projects_project1_jpg__WEBPACK_IMPORTED_MODULE_1___default.a,
+    src: _assets_assets_export_js__WEBPACK_IMPORTED_MODULE_1__["project1"],
     alt: "Project"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#!",
@@ -445,7 +404,7 @@ function Work() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#!"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_projects_project2_jpg__WEBPACK_IMPORTED_MODULE_2___default.a,
+    src: _assets_assets_export_js__WEBPACK_IMPORTED_MODULE_1__["project2"],
     alt: "Project"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#!",
@@ -462,7 +421,7 @@ function Work() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#!"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_projects_project3_jpg__WEBPACK_IMPORTED_MODULE_3___default.a,
+    src: _assets_assets_export_js__WEBPACK_IMPORTED_MODULE_1__["project3"],
     alt: "Project"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#!",
@@ -479,7 +438,7 @@ function Work() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#!"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_projects_project4_jpg__WEBPACK_IMPORTED_MODULE_4___default.a,
+    src: _assets_assets_export_js__WEBPACK_IMPORTED_MODULE_1__["project4"],
     alt: "Project"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#!",
@@ -496,7 +455,7 @@ function Work() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#!"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_projects_project5_jpg__WEBPACK_IMPORTED_MODULE_5___default.a,
+    src: _assets_assets_export_js__WEBPACK_IMPORTED_MODULE_1__["project5"],
     alt: "Project"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#!",
