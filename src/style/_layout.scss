@@ -26,6 +26,12 @@
       margin-bottom: 1rem;
     }
   }
+  ul.menu-nav {
+    transform: translate3d(100%, 0, 0);
+    &.show {
+      transform: translate3d(0, 0, 0);
+    }
+  }
   .about-info {
     grid-template-areas:
       "bioimage"

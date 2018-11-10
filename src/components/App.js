@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 import Home from "./Home.js";
 import About from "./About.js";
 import Work from "./Work.js";
@@ -18,7 +18,7 @@ export default class App extends Component {
   }
   render() {
     return (
-      <BrowserRouter basename="/reactify_port_site">
+      <HashRouter>
         <Fragment>
           <Menu current={this.state.current} />
           <Route exact path="/" component={Home} />
@@ -27,7 +27,7 @@ export default class App extends Component {
           <Route path="/contact" component={Contact} />
           <Footer />
         </Fragment>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }

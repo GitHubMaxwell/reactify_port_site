@@ -10,12 +10,12 @@ export default function Home() {
         Web Developer, Programmer, Designer, & Entrepreneur
       </h2>
       <div className="icons">
-        <a href="/">
+        {/* <a href="/">
           <i className="fab fa-twitter fa-2x" />
         </a>
         <a href="/">
           <i className="fab fa-facebook fa-2x" />
-        </a>
+        </a> */}
         <a href="/">
           <i className="fab fa-linkedin fa-2x" />
         </a>
