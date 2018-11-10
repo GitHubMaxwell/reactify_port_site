@@ -1,9 +1,5 @@
 import React from "react";
-import project1 from "../assets/projects/project1.jpg";
-import project2 from "../assets/projects/project2.jpg";
-import project3 from "../assets/projects/project3.jpg";
-import project4 from "../assets/projects/project4.jpg";
-import project5 from "../assets/projects/project5.jpg";
+import picture from "../assets/assets_export.js";
 
 export default function Work() {
   return (
@@ -15,7 +11,7 @@ export default function Work() {
       <div className="projects">
         <div className="project-items">
           <a href="#!">
-            <img src={project1} alt="Project" />
+            <img src={picture.project1} alt="Project" />
           </a>
           <a href="#!" className="btn-light">
             <i className="fas fa-eye" /> Project
@@ -26,7 +22,7 @@ export default function Work() {
         </div>
         <div className="project-items">
           <a href="#!">
-            <img src={project2} alt="Project" />
+            <img src={picture.project2} alt="Project" />
           </a>
           <a href="#!" className="btn-light">
             <i className="fas fa-eye" /> Project
@@ -37,7 +33,7 @@ export default function Work() {
         </div>
         <div className="project-items">
           <a href="#!">
-            <img src={project3} alt="Project" />
+            <img src={picture.project3} alt="Project" />
           </a>
           <a href="#!" className="btn-light">
             <i className="fas fa-eye" /> Project
@@ -48,7 +44,7 @@ export default function Work() {
         </div>
         <div className="project-items">
           <a href="#!">
-            <img src={project4} alt="Project" />
+            <img src={picture.project4} alt="Project" />
           </a>
           <a href="#!" className="btn-light">
             <i className="fas fa-eye" /> Project
@@ -59,7 +55,7 @@ export default function Work() {
         </div>
         <div className="project-items">
           <a href="#!">
-            <img src={project5} alt="Project" />
+            <img src={picture.project5} alt="Project" />
           </a>
           <a href="#!" className="btn-light">
             <i className="fas fa-eye" /> Project
