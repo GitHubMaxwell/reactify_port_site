@@ -264,19 +264,19 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", {
       id: "about"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-      class: "lg-heading"
+      className: "lg-heading"
     }, "Contact ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      class: "text-secondary"
+      className: "text-secondary"
     }, "Me")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-      class: "sm-heading"
+      className: "sm-heading"
     }, "Let's Get In Touch!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      class: "boxes"
+      className: "boxes"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      class: "text-secondary"
+      className: "text-secondary"
     }, "Email:"), "johndoe@test.com"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      class: "text-secondary"
+      className: "text-secondary"
     }, "Phone:"), "555-555-5555"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      class: "text-secondary"
+      className: "text-secondary"
     }, "Address:"), "Seattle,WA")));
   }
 
