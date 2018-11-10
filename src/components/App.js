@@ -18,7 +18,7 @@ export default class App extends Component {
   }
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/reactify_port_site">
         <Fragment>
           <Menu current={this.state.current} />
           <Route exact path="/" component={Home} />

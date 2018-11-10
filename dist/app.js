@@ -9,21 +9,51 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-// export background from "./background.jpg";
-// export portrait from "./portrait.jpg";
-// export portrait_small from "./portrait_small.jpg";
-// export project1 from "./projects/project1.jpg";
-// export project2 from "./projects/project2.jpg";
-// export project3 from "./projects/project3.jpg";
-// export project4 from "./projects/project4.jpg";
-// export project5 from "./projects/project5.jpg";
+/* harmony import */ var _background_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./background.jpg */ "./src/assets/background.jpg");
+/* harmony import */ var _background_jpg__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_background_jpg__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _portrait_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./portrait.jpg */ "./src/assets/portrait.jpg");
+/* harmony import */ var _portrait_jpg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_portrait_jpg__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _portrait_small_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./portrait_small.jpg */ "./src/assets/portrait_small.jpg");
+/* harmony import */ var _portrait_small_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_portrait_small_jpg__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _projects_project1_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./projects/project1.jpg */ "./src/assets/projects/project1.jpg");
+/* harmony import */ var _projects_project1_jpg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_projects_project1_jpg__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _projects_project2_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./projects/project2.jpg */ "./src/assets/projects/project2.jpg");
+/* harmony import */ var _projects_project2_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_projects_project2_jpg__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _projects_project3_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./projects/project3.jpg */ "./src/assets/projects/project3.jpg");
+/* harmony import */ var _projects_project3_jpg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_projects_project3_jpg__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _projects_project4_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./projects/project4.jpg */ "./src/assets/projects/project4.jpg");
+/* harmony import */ var _projects_project4_jpg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_projects_project4_jpg__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _projects_project5_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./projects/project5.jpg */ "./src/assets/projects/project5.jpg");
+/* harmony import */ var _projects_project5_jpg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_projects_project5_jpg__WEBPACK_IMPORTED_MODULE_7__);
+
+
+
+
+
+
+
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-  project1: "./projects/project1.jpg",
-  project2: "./projects/project2.jpg",
-  project3: "./projects/project3.jpg",
-  project4: "./projects/project4.jpg",
-  project5: "./projects/project5.jpg"
+  background: _background_jpg__WEBPACK_IMPORTED_MODULE_0___default.a,
+  portrait: _portrait_jpg__WEBPACK_IMPORTED_MODULE_1___default.a,
+  portrait_small: _portrait_small_jpg__WEBPACK_IMPORTED_MODULE_2___default.a,
+  project1: (_projects_project1_jpg__WEBPACK_IMPORTED_MODULE_3___default()),
+  project2: (_projects_project2_jpg__WEBPACK_IMPORTED_MODULE_4___default()),
+  project3: (_projects_project3_jpg__WEBPACK_IMPORTED_MODULE_5___default()),
+  project4: (_projects_project4_jpg__WEBPACK_IMPORTED_MODULE_6___default()),
+  project5: (_projects_project5_jpg__WEBPACK_IMPORTED_MODULE_7___default())
 });
+
+/***/ }),
+
+/***/ "./src/assets/background.jpg":
+/*!***********************************!*\
+  !*** ./src/assets/background.jpg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "src/assets/background-00051dbb.jpg";
 
 /***/ }),
 
@@ -35,6 +65,72 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "src/assets/portrait-ef93b85f.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/portrait_small.jpg":
+/*!***************************************!*\
+  !*** ./src/assets/portrait_small.jpg ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "src/assets/portrait_small-31ad0b4d.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/projects/project1.jpg":
+/*!******************************************!*\
+  !*** ./src/assets/projects/project1.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "src/assets/projects/project1-2efd960d.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/projects/project2.jpg":
+/*!******************************************!*\
+  !*** ./src/assets/projects/project2.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "src/assets/projects/project2-473d9f55.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/projects/project3.jpg":
+/*!******************************************!*\
+  !*** ./src/assets/projects/project3.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "src/assets/projects/project3-139308d7.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/projects/project4.jpg":
+/*!******************************************!*\
+  !*** ./src/assets/projects/project4.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "src/assets/projects/project4-5a100b46.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/projects/project5.jpg":
+/*!******************************************!*\
+  !*** ./src/assets/projects/project5.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "src/assets/projects/project5-babc9580.jpg";
 
 /***/ }),
 
@@ -50,8 +146,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return About; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _assets_portrait_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/portrait.jpg */ "./src/assets/portrait.jpg");
-/* harmony import */ var _assets_portrait_jpg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_portrait_jpg__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _assets_assets_export_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/assets_export.js */ "./src/assets/assets_export.js");
 
 
 function About() {
@@ -66,7 +161,7 @@ function About() {
   }, "Some Information About Me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "about-info"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_portrait_jpg__WEBPACK_IMPORTED_MODULE_1___default.a,
+    src: _assets_assets_export_js__WEBPACK_IMPORTED_MODULE_1__["default"].portrait,
     alt: "John Doe Profile Picture",
     className: "bio-image"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -121,7 +216,9 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   }
 
   render() {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["BrowserRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Menu_js__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["BrowserRouter"], {
+      basename: "/reactify_port_site"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Menu_js__WEBPACK_IMPORTED_MODULE_6__["default"], {
       current: this.state.current
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
       exact: true,
@@ -387,7 +484,7 @@ function Work() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#!"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_assets_export_js__WEBPACK_IMPORTED_MODULE_1__["project1"],
+    src: _assets_assets_export_js__WEBPACK_IMPORTED_MODULE_1__["default"].project1,
     alt: "Project"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#!",
@@ -404,7 +501,7 @@ function Work() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#!"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_assets_export_js__WEBPACK_IMPORTED_MODULE_1__["project2"],
+    src: _assets_assets_export_js__WEBPACK_IMPORTED_MODULE_1__["default"].project2,
     alt: "Project"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#!",
@@ -421,7 +518,7 @@ function Work() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#!"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_assets_export_js__WEBPACK_IMPORTED_MODULE_1__["project3"],
+    src: _assets_assets_export_js__WEBPACK_IMPORTED_MODULE_1__["default"].project3,
     alt: "Project"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#!",
@@ -438,7 +535,7 @@ function Work() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#!"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_assets_export_js__WEBPACK_IMPORTED_MODULE_1__["project4"],
+    src: _assets_assets_export_js__WEBPACK_IMPORTED_MODULE_1__["default"].project4,
     alt: "Project"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#!",
@@ -455,7 +552,7 @@ function Work() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#!"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_assets_export_js__WEBPACK_IMPORTED_MODULE_1__["project5"],
+    src: _assets_assets_export_js__WEBPACK_IMPORTED_MODULE_1__["default"].project5,
     alt: "Project"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#!",

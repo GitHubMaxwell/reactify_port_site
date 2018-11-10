@@ -1,5 +1,6 @@
 import React from "react";
-import profile from "../assets/portrait.jpg";
+import picture from "../assets/assets_export.js";
+
 export default function About() {
   return (
     <main id="about">
@@ -9,7 +10,7 @@ export default function About() {
       <h2 className="sm-heading">Some Information About Me</h2>
       <div className="about-info">
         <img
-          src={profile}
+          src={picture.portrait}
           alt="John Doe Profile Picture"
           className="bio-image"
         />
