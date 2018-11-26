@@ -1,5 +1,5 @@
 @import "_config";
-@import "_menu";
+@import "_header";
 
 * {
   box-sizing: border-box;
@@ -8,12 +8,12 @@
 }
 
 body {
-  @include background;
   background: $primary-color;
   color: set-text-color($primary-color);
-  // height: 100%;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.5;
+  // font-family: "Avenir", Tahoma, Geneva, Verdana, sans-serif;
+  // font-family: "GT Walsheim", Helvetica, sans-serif;
+  font-family: "Arial", sans-serif;
+  // line-height: 1.5;
   margin: 0;
 }
 
@@ -23,17 +23,17 @@ h3 {
   margin: 0;
   font-weight: 400;
   &.lg-heading {
-    font-size: 4rem;
+    font-size: 9vw;
   }
-  &.sm-heading {
-    margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
-    background: rgba(lighten($primary-color, 2), 0.5);
+  &.outline {
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
   }
 }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -49,10 +49,7 @@ header {
 
 main {
   padding: 4rem;
-  //   height: 100%;
-  //   instead of using height:100% = 100% of the content inside of main so if there isnt enough then the footer will rise up
-  //   create a sticky footer using calc function on the main (the element above what you want to style
-  min-height: calc(100vh - 60px);
+  min-height: calc(100vh - 80px);
   .icons {
     margin-top: 1rem;
     a {
@@ -72,80 +69,32 @@ main {
   }
 }
 
-.about-info {
-  display: grid;
-  grid-gap: 30px;
-  grid-template-areas:
-    "bioimage bio bio"
-    "job1 job2 job3";
-  grid-template-columns: repeat(3, 1fr);
-  .bio-image {
-    grid-area: bioimage;
-    margin: auto;
-    border-radius: 50%;
-    border: 3px solid $secondary-color;
-  }
-  .bio {
-    grid-area: bio;
-    font-size: 1.5rem;
-  }
-  .job-1 {
-    grid-area: job1;
-  }
-  .job-2 {
-    grid-area: job2;
-  }
-  .job-3 {
-    grid-area: job3;
-  }
+// .about-info {
+//   display: grid;
+//   grid-gap: 30px;
+//   grid-template-areas:
+//     "bioimage bio bio"
+//     "job1 job2 job3";
+//   grid-template-columns: repeat(3, 1fr);
+//   .bio-image {
+//     grid-area: bioimage;
+//     margin: auto;
+//     border-radius: 50%;
+//     border: 3px solid $secondary-color;
+//   }
+//   .bio {
+//     grid-area: bio;
+//     font-size: 1.5rem;
+//   }
 
-  .job {
-    background: lighten($primary-color, 5);
-    padding: 0.5rem;
-    border-bottom: 5px solid $secondary-color;
-  }
-}
-//Work Projects
-
-.projects {
-  display: grid;
-  grid-gap: 0.7rem;
-  grid-template-columns: repeat(3, 1fr);
-  img {
-    width: 100%;
-    border: 3px solid white;
-    &:hover {
-      border-color: $secondary-color;
-      opacity: 0.5;
-      @include easeOut;
-    }
-  }
-}
+//   .job {
+//     background: lighten($primary-color, 5);
+//     padding: 0.5rem;
+//     border-bottom: 5px solid $secondary-color;
+//   }
+// }
 // Contact Page
 
-.boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 1rem;
-  div {
-    font-size: 1rem;
-    border: 3px solid white;
-    padding: 1.5rem 2.5rem;
-    margin-bottom: 3rem;
-    @include easeOut;
-    &:hover {
-      padding: 0.5rem 1.5rem;
-      // makes the button squish
-      background: $secondary-color;
-      color: set-text-color($secondary-color);
-      span {
-        color: set-text-color($secondary-color);
-      }
-    }
-  }
-}
 // Button Styles
 .btn {
   display: block;
@@ -169,12 +118,14 @@ main {
   color: #333;
 }
 
-#universal-footer {
+.footer-icons {
   text-align: center;
   padding: 1rem;
-  background: darken($primary-color, 10);
-  color: set-text-color($primary-color);
+  // color: set-text-color($primary-color);
   height: 60px;
+  a:nth-child(1) {
+    margin-right: 30px;
+  }
 }
 
 @import "_layout";

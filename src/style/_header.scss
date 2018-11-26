@@ -1,0 +1,16 @@
+nav {
+  display: grid;
+  justify-items: end;
+  margin-top: 20px;
+  margin-right: 20px;
+  ul a {
+    padding-right: 10px;
+    @include easeOut();
+    &:hover {
+      color: blue;
+    }
+    a:nth-child(3) {
+      padding-right: 0;
+    }
+  }
+}
